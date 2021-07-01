@@ -1,5 +1,6 @@
 :root {
   --primary-color: #fce138;
+  --primary-color-transparent: rgba(252, 225, 56, 0.8);
   --secondary-color: #024e76;
   --tertiary-color: #39a6b2;
 }
@@ -28,7 +29,7 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-position: 80%
+  background-position: 80%;
   z-index: 9999;
 }
 
@@ -112,7 +113,7 @@ section {
 }
 
 .hero-form {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-transparent);
   padding: 20px;
   color: var(--secondary-color);
   border-style: solid;
